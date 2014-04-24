@@ -16,5 +16,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Мое изменение"/>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="мое второе изменение"/>
 
 </RelativeLayout>
