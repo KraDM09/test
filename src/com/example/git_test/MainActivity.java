@@ -12,6 +12,8 @@ import android.view.ViewGroup;
 import android.os.Build;
 
 public class MainActivity extends ActionBarActivity {
+	// тестирую выделение цветом изменений
+	// вроде неплохо выглядит
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +36,8 @@ public class MainActivity extends ActionBarActivity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
+	
+		// automatically handle lol on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
